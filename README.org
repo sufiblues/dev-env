@@ -1,4 +1,4 @@
-* Hamdaddy's Development enviroment
+* Development enviroment
 ** Requirements
 *** Emacs
 *** Unix based
