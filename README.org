@@ -1,0 +1,14 @@
+* Hamdaddy's Development enviroment
+** Requirements
+*** Emacs
+*** Unix based
+** Step one: Create org directory
+Using:$ git clone https://github.com/sufiblues/org.git ~/org
+bring all of your org files into that machines home folder.
+** Step two: move emacs config to home folder
+mv -r .emacs.d ~/
+mv -r .doom.d ~/
+** Step three: configure path variables
+Add
+PATH="$HOME/.emacs.d/bin:$PATH"
+to .bash_profile
